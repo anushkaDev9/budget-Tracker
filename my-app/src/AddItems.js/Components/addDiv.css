@@ -1,0 +1,21 @@
+
+.add-item{
+  border: 2px solid rgb(171, 166, 166);
+  
+  cursor: pointer;
+  border-radius: 10px;
+}
+.add-item .add-icon{
+ font-size: 100px;
+ margin-top: 85px;
+ margin-left: 85px;
+}
+.addItem{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:-10px;
+    row-gap: 25px;
+}
+.addItem{
+    background-color: red;
+}

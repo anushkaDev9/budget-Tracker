@@ -1,0 +1,13 @@
+.navLinks-div ul{
+    list-style-type: none;
+    margin-top: 100%;
+
+}
+.navLinks-div li{
+   margin-top: 55%;
+}
+.icons-side{
+    color:white;
+    font-size: 35px;
+    cursor: pointer;
+}
