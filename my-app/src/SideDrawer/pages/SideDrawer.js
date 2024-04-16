@@ -6,7 +6,7 @@ const SideDrawer = (props) => {
 
 
   return (
-    <div className="sideDrawer">
+    <div className={`sideDrawer ${props.class}`}>
       <button onClick={props.onClick}>
         <span></span>
         <span></span>

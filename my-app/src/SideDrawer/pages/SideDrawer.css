@@ -9,7 +9,13 @@ backdrop-filter: blur( 12.5px );
 border-radius: 2%;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 position: absolute;
- transition: 0.1s;
+ transition: transform 0.5s ease-in;
+}
+.open{
+    transform: translateX(0);
+}
+.close{
+   transform: translateX(-100%);
 }
 .sideDrawer button{
 width: 3rem; 

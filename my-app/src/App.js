@@ -13,9 +13,12 @@ function App() {
   }
   return (
     <div className="App">
-      {open ? (
-        <SideDrawer onClick={closeDrawer} />
-      ) : (
+      
+        <SideDrawer
+          onClick={closeDrawer}
+          class={`${open?'open':'close'}`}
+        />
+    
         <div>
           <button onClick={openDrawer}>
             <span></span>
@@ -23,7 +26,7 @@ function App() {
             <span></span>
           </button>
         </div>
-      )}
+    
 
       <Header />
     </div>
