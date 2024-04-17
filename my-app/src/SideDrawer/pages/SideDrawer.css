@@ -37,3 +37,19 @@ height: 2.5px;
 background: white;
 
 }
+@media  (min-width:300px) and (max-width: 760px) {
+    .sideDrawer{
+        width:20%;
+    }
+    .sideDrawer button{
+        margin-left: 15%;
+    }
+}
+@media (min-width:760px) and (max-width:1024px){
+    .sideDrawer{
+        width:15%
+    }
+      .sideDrawer button{
+        margin-left: 25%;
+    }
+}

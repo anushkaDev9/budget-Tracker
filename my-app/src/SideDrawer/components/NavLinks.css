@@ -11,3 +11,14 @@
     font-size: 35px;
     cursor: pointer;
 }
+@media only screen and (min-width:300px) and (max-width: 760px) {
+    .navLinks-div ul{
+        margin-left: -15%;
+        margin-top: 150%;
+    }
+}
+@media only screen and (min-width:760px) and (max-width:1024px){
+   .navLinks-div ul{
+    margin-left: 10%;
+   }
+}
